@@ -1,0 +1,125 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;  
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.login{
+    background-color: rgba(0,0,0,.70);
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: auto;  
+}
+
+.login-filds{
+    margin: 10px 30px 40px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* filme principal*/
+.principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-inicial.jpg');
+   
+    height: 800px;
+    background-size: cover;
+
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.principal .titulo{
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Arial Black', 'Times New Roman', 'Times New Roman', Times, serif;
+    
+}
+
+.longin-imput-text{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 3%;
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+
+}
+
+ .botao{
+    background-color:var(--vermelho);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao:hover{
+    background-color:red;
+    color: black;
+
+}
+
+.container{
+margin: auto;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5%;
+}
